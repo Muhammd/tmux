@@ -10,7 +10,7 @@ Installation
 
 Requirements:
 
-  - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD, Cygwin or WSL (Bash on
+  - tmux **`>= 2.4`** running inside Linux, Mac, OpenBSD, Cygwin or WSL (Bash on
     Ubuntu on Windows)
   - outside of tmux, `$TERM` must be set to `xterm-256color`
 
@@ -98,7 +98,7 @@ Features
    if available
  - laptop battery status line information
  - uptime status line information
- - optional highlight of focused pane (tmux `>= 2.1`)
+ - optional highlight of focused pane
  - configurable new windows and panes behavior (optionally retain current path)
  - SSH/Mosh aware split pane (reconnects to remote server)
  - copy to OS clipboard (needs [`reattach-to-user-namespace`][reattach-to-user-namespace]
