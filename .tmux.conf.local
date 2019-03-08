@@ -270,19 +270,15 @@ tmux_conf_theme_clock_style='24'
 # on operating systems running X.org, this requires installing xsel or xclip
 # on Windows, clip.exe is used
 # on Cygwin, /dev/clipboard is used
-tmux_conf_copy_to_os_clipboard=false
-
-# share the remote clipboard
-#   - true
-#   - false (default)
 #
-# when connecting to a remote tmux session running this configuration with this
-# setting enabled, copied text will be sent back to the local clipboard using
-# the OSC 52 escape sequence
+# when connecting to a remote tmux session running this configuration,
+# copied text will be sent back to the local clipboard using the OSC 52 escape
+# sequence (tmux >= 2.4)
 #   - this requires set-clipboard to be set to 'on' or 'external' (default)
 #   - this requires having a terminal that emulator that understands the OSC 52
 #     escape sequence
-tmux_conf_share_remote_clipboard=false
+tmux_conf_copy_to_os_clipboard=false
+
 
 # -- user customizations -------------------------------------------------------
 # this is the place to override or undo settings
