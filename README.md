@@ -19,7 +19,7 @@ existing `~/.tmux.conf` first)
 
 ```
 $ cd
-$ git clone https://github.com/gpakosz/.tmux.git
+$ git clone https://github.com/muhammd/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
@@ -35,7 +35,7 @@ If you're new to tmux, I recommend you read [tmux 2: Productive Mouse-Free
 Development][bhtmux2] by [@bphogan].
 
 [bhtmux2]: https://pragprog.com/book/bhtmux2/tmux-2
-[@bphogan]: https://twitter.com/bphogan
+[@satooda]: https://twitter.com/satooda
 
 Troubleshooting
 ---------------
